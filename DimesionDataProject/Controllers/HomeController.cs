@@ -28,6 +28,21 @@ namespace DimesionDataProject.Controllers
             return View();
         }
 
+        public IActionResult ViewData()
+        {
+            return View();
+        }
+
+        public IActionResult ViewRole()
+        {
+            return View();
+        }
+
+        public IActionResult DataAnalytics()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
