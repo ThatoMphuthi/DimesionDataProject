@@ -28,12 +28,16 @@ namespace DimesionDataProject.Controllers
             return View();
         }
 
-        public IActionResult ViewData()
+        public IActionResult Manager()
         {
             return View();
         }
 
-        public IActionResult ViewRole()
+        public IActionResult Admin()
+        {
+            return View();
+        }
+        public IActionResult Employee()
         {
             return View();
         }
